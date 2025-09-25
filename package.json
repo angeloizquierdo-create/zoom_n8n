@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "n8n-nodes-evolution-api": "^1.0.4"
+  },
+  "name": "zoom_n8n",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holaUAI/n8n_workflows.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/holaUAI/n8n_workflows/issues"
+  },
+  "homepage": "https://github.com/holaUAI/n8n_workflows#readme",
+  "devDependencies": {},
+  "description": ""
+}

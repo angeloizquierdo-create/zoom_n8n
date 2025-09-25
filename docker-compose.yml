@@ -14,8 +14,11 @@ services:
       - N8N_HOST=${N8N_HOST}
       - N8N_PORT=${N8N_PORT}
       - WEBHOOK_URL=${WEBHOOK_URL}
+      - N8N_CUSTOM_EXTENSIONS=/data/custom
     volumes:
       - ./n8n_data:/home/node/.n8n
+      - ./custom:/data/custom   # 👈 carpeta donde estarán los nodos
+    
 
   ngrok:
     image: ngrok/ngrok:latest
@@ -27,3 +30,4 @@ services:
       - "4040:4040"
     depends_on:
       - n8n
+      
